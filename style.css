@@ -9,7 +9,7 @@ body{
 .mainContainer{
   grid-row-gap: 2vh;
   display:grid;
-  padding: 4vh 2vw 1vh 2vw;
+  padding: 4vh 2vw 6vh 2vw;
 }
 
 .navbar{
@@ -17,7 +17,7 @@ body{
   justify-content: space-between;
   align-items: center;
   color: #eee;
-  padding: 3vh 2vw 0vh 3vw;
+  padding: 3vh 1.6vw 0vh 3vw;
   height: 8vh;
   font-size: 1.1vw;
   font-weight: 900;
@@ -28,7 +28,7 @@ body{
   justify-content: space-between;
   align-items: center;
   color: #eee;
-  padding: 3vh 2vw 0vh 3vw;
+  padding: 2vh 2vw 0vh 2vw;
   height: 8vh;
   font-size: 1.1vw;
   font-weight: 900;
@@ -120,6 +120,7 @@ a{
   grid-template-rows: 5vh auto;
 }
 
+
 .imageContainer{
   display: grid;
   grid-template-columns: repeat(3, 3fr);
@@ -150,6 +151,7 @@ a{
   align-items: center;
   justify-content: center;
   font-size: 8vh;
+  padding: 8vh 0vw 0vh 0vw ;
 }
 
 form{
@@ -187,8 +189,6 @@ form .submit {
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
-
-
 
 form .submit:hover{
 	color: gray;
