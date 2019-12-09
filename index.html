@@ -6,24 +6,42 @@
     <meta charset="utf-8">
     <title> Jason Lee | Photographer </title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </head>
 
   <body class="mainBody">
+    <div class="navbar">
+      <div class="left">
+        <div class="realleft">
+          <a href="index.html">Jason Lee</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="grid">
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+    </div>
     <div class="mainContainer">
-      <div class="navbar">Hello</div>
-      <div class="row1">
-        <div class="title">
-          <div class="man"> <a href="nature.html">Nature</a></div></div>
+      <div id="row1" data-rellax-speed="-2">
+        <div id="title">
+          <a href="nature.html" class="man"> <div>Nature</div> </a></div>
       </div>
       <div class="row2">
-        <div class="title">
-          <div class="man"> <a href="urban.html"> Urban </a></div></div>
+        <div id="title">
+          <a href="urban.html" class="man"><div> Urban</div></a></div>
         </div>
       <div class="row3">
-        <div class="title">
-          <div class="man"><a href="potrtait.html"> Portrait</a></div></div>
+        <div id="title">
+          <a href="portrait.html" class="man"><div>Portrait</div></a></div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js" charset="utf-8"></script>
+    <script src="script.js"></script>
   </body>
 
 
