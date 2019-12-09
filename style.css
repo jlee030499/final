@@ -225,7 +225,8 @@ form .submit:hover{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 5vh 13vw 3vh 13vw;
+  padding: 15vh 13vw 3vh 13vw;
+  grid-row-gap: 50vh;
 
 }
 
@@ -236,12 +237,16 @@ form .submit:hover{
   justify-content: center;
   background-image: url("back.jpg");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 #changing{
-  font-size: 5.3vw;
-  color:yellow;;
+  font-size: 5vw;
+  padding:0vh 1vw 1vh 1vw;
+  border-radius: 2vw;
+  color:black;
+  background-color: yellow;
 
 }
 
@@ -263,4 +268,13 @@ form .submit:hover{
 
 .photo img{
   width:30vw;
+}
+
+.picture{
+  background-image: url("prof.jpg")
+}
+.info{
+  font-size: 2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
