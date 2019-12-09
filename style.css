@@ -34,6 +34,16 @@ body{
   font-weight: 900;
 }
 
+.navbar2 a:hover{
+    opacity: .5;
+    transition: .5s;
+}
+
+.navbar a:hover{
+    opacity: .5;
+    transition: .5s
+}
+
 .realleft a{
     color:black;
     float:left;
@@ -153,6 +163,22 @@ a{
   font-size: 8vh;
   padding: 8vh 0vw 0vh 0vw ;
 }
+
+.names a{
+  text-decoration: none;
+  color:black;
+}
+
+.names a:hover{
+  opacity: .5;
+  transition: .5s
+}
+
+.actual{
+  padding: 0vh 1.5vw 0vh 1.5vw;
+  color: black;
+}
+
 
 form{
 	margin-top: 50px;
