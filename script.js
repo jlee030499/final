@@ -33,7 +33,3 @@ var interval = setInterval(updateImage, 3000);
 });
 
 */
-
-document.addEventListener('DOMContentLoaded', function(event) {
-
-var rellax = new Rellax('#row1');
