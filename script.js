@@ -33,3 +33,19 @@ var interval = setInterval(updateImage, 3000);
 });
 
 */
+
+
+(function(){
+      var words = [
+          'a student',
+          'a photographer',
+          'an explorer',
+          'Jason Lee',
+          ], i = 0;
+      setInterval(function(){
+          $('#changing').fadeOut(function(){
+              $(this).html(words[i=(i+1)%words.length]).fadeIn();
+          });
+      }, 3000);
+
+  })();

@@ -219,3 +219,35 @@ form .submit {
 form .submit:hover{
 	color: gray;
 }
+
+
+.mainTwo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 10vh 13vw 3vh 13vw;
+  overflow: hidden;
+}
+
+#rightside{
+  height:30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#changing{
+  font-size: 5.3vw;
+  color:#0000ff;
+
+}
+
+.leftside{
+  height: 30vh;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 5vw;
+  padding-right: 10vw;
+
+}
